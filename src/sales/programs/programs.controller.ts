@@ -22,7 +22,7 @@ import { join } from 'path';
 import { UsersDto } from './dto/programs-user.dto';
 import { UsersEducationDto } from './dto/programs-user-education.dto';
 
-@Controller('revamp-codeid/programs')
+@Controller('api/revamp-codeid/programs')
 export class ProgramsController {
   constructor(private Services: ProgramsService) {}
 

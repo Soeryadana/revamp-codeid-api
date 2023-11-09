@@ -14,7 +14,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { SignUpDto } from './dto/users.dto';
 
 // @Controller('users')
-@Controller('revamp-codeid/users')
+@Controller('api/revamp-codeid/users')
 export class UsersController {
   constructor(private authService: UsersService) {}
 
